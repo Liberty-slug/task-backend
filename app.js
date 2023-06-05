@@ -6,7 +6,7 @@ const connectDB = require('./db/connect')
 require('dotenv').config()
 
 // Middleware
-app.use(express.static('./public'))
+app.use(express.static('https://task-manager-c295.onrender.com/'))
 app.use(express.json())
 app.use(cors())
 
